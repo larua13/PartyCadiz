@@ -12,9 +12,10 @@ var mimicas = ['Spiderman', 'Piratas del Caribe', 'Harry Potter', 'La casa de Pa
     'Cristina llorando mientras come macarrones', 'Mirian roneando', 'Rubén en la cita del coche', 'Irene corriendo de Bimba', 'Hacer un thrust', 'La de farma con el gato',
     'Emilio de cirugía viendo las exposiciones', 'Nosotros corriendo 2h en la playa', 'Prueba de fuerza de Rosetti', 'María B e Irene en el gimnasio', 'Cristina tocando el Saxofón',
     'Bailar sevillanas', 'Beber vino', 'Ir a tomar algo al Provenzal', 'Cervezada', 'Seminario en la piscina', 'Notar las fascias', 'Nosotros antes de entrar al examen de respi', 
-    'Jugar al tenis', 'Comer caracoles', 'Hacer una ruta de senderismo', 'Hacer una prueba de esfuerzo', 'Mirian y Gonzalo discutiendo en el grupo', 'Hacer zumba', 'Hacer dominadas',
+    'Jugar al tenis', 'Comer caracoles', 'Hacer una ruta de senderismo', 'Hacer una prueba de esfuerzo', 'Mirian y Gonzalo discutiendo en el grupo', 'Hacer zumba', 
+    'Hacer dominadas', 'Adrián grabando el video de osteopatía mareado', 'Manolo haciéndole el bombeo de psoas a María B', 'Hacer una espirometría', 
     'Ir al CBC', 'Mirian llorando con sus bebés', 'María B paseando a Randi', 'Musaka arañando a María L', 'Drenar cara y cuello', 'Ale Galán en clase', 'Vendaje de muñón', 
-    'Cristina yendo al mercadona con el carrito', 'Montarse en el canguro', 'Tocar el pito de carnaval', 'Comprar en Shein', 'Poner un kinesio']
+    'Cristina yendo al mercadona con el carrito', 'Montarse en el canguro', 'Tocar el pito de carnaval', 'Comprar en Shein', 'Poner un kinesio', 'Rubén en las prácticas con Carlos procedimientos II']
 
 var telepatias = ['Marca de ropa', 'Comida', 'Bebida', 'Bebida alcohólica', 'Marca de zapatos', 'Marca deportiva', 'Marca de comida', 'Sabor de helado', 
     'Sabor de té', 'Bebida sin azúcar', 'Deporte', 'Deporte acuático', 'Deporte con pelota', 'Juego de mesa', 'Videojuego', 'Asignatura del cole', 'Marca de tecnología', 
@@ -43,7 +44,7 @@ var dibujos = ['Vaca', 'Caballo', 'Delfín', 'Voldemort', 'Teclado', 'Ratón', '
     'Escudo del Cádiz CF', 'Escudo del Sevilla FC', 'Escudo del Real Madrid', 'La Caleta', 'Gran Teatro Falla', 'Símbolo de la UCA', 'Fisioterapia', 
     'Electrocardiograma', 'RPG', 'Café con hormigas de la UCA', 'Bimba (perra de Rubén)', 'Laura en rehabilitación', 'Teclado de PC', 'Volante del coche', 
     'Pirulí de Cádiz', 'Catedral de Cádiz', 'Pito de carnaval', 'Tren', 'Plaza España de Cádiz', 'Puente de la Pepa', 'Traje de flamenca', 'Saxofón', 'Pentagrama', 'Cubo de cervezas', 
-    'Edward Cullen', 'Lady Di'
+    'Edward Cullen', 'Lady Di', 'Reyes'
  ]
 
 var imitar = ['Acento: argentino', 'Imitación: minion', 'Acento: cubano', 'Imitación: animal crossing', 'Acento: vasco', 'Acento: andaluz', 'Acento: mexicano', 
