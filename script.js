@@ -170,7 +170,7 @@ var spoty = ['"https://open.spotify.com/embed/track/42VgiRyg0YjtRVLiPFNxPJ?utm_s
 
 ]  
 
-var frases = ['Sujétame el cubata', 'Oleee, eso está chupao', 'Enga, enga', 'Amono', '¿Solo eso? Va', 'Te vas a cagá', 
+var frases = ['Sujétame el cubata', 'Oleee, eso está chupao', 'Enga, enga', 'Amonó', '¿Solo eso? Va', 'Te vas a cagá', 
     'Ponme algo más difíci, mi arma', 'Hubiera preferido un examen de física', 'Con los ojos cerraos, chavá', 'Y haciendo el pino si quieres', 'Tas colao',
     'Hasta luego, Mari Carmen', 'Okey makey', 'Chao pescao', 'Easy peasy', 'Dale, gaxí', '¡Me encanta!', 'Pisha, tas pasao', 'Esto lo estudié en sexto de primaria', 
     'Estoy to emboliká', 'Te bajas un punto', '¿Qué hago? ¿Me mato?' ]
