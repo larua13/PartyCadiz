@@ -1,14 +1,20 @@
 var mimicas = ['Spiderman', 'Piratas del Caribe', 'Harry Potter', 'La casa de Papel', 'Tiburón', 'Titanic', 'Star Wars', 'Grease', 'Indiana Jones',
-    'E.T', 'Isla Mágica', 'La Warner', 'Terminator', 'Jurassic Park', 'Toy Story', 'Nemo', 'Haz twerk', 'Shrek', 'Avatar', '8 Apellidos Vascos', 
+    'E.T', 'Isla Mágica', 'La Warner','Jurassic Park', 'Toy Story', 'Nemo', 'Haz twerk', 'Shrek', 'Avatar', '8 Apellidos Vascos', 
      '8 Apellidos Catalanes', 'Náufrago', 'El Resplandor', 'James Bond', 'El dinosaurio del Google sin internet', 'Volar', 'Montaña rusa', 'Momia', 
-    'Crepúsculo', 'High School Musical', 'Inside Out', 'El señor de los anillos', 'Escalada', 'Prueba de alcoholemia', 
-    'Coger el AVE', 'Comer con palillos', 'Una serpiente', 'Tocar el ukelele', 'Dora la exploradora', 
-    'Bob Esponja', 'Doraemon', 'Matrix', 'Los increíbles', 
+    'Crepúsculo', 'High School Musical', 'Camp Rock', 'Inside Out', 'El señor de los anillos', 'Escalada', 'Prueba de alcoholemia', 
+    'Coger el AVE', 'Comer con palillos', 'Una serpiente', 'Tocar el ukelele', 'Dora la exploradora', 'Mamma Mia', 'UP', 'Frozen', 
+    'Bob Esponja', 'Doraemon', 'Los increíbles', 
     'Ducharse', 'Inflar una rueda', 'Cocinar espaguetis', 'Montar una tienda de campaña', 'Poner la lavadora', 'Estar en un autobús y que de un frenazo',   
     'Los Sanfermines', 'Montar en bici', 'Tirarse de bomba a la piscina', 'Jugar a las palas en la playa', 'Charlie y la fábrica de chocolate', 'Hacerse una PCR', 
-     'Jugar al bingo', 'Matar moscas', 
+     'Jugar al bingo', 'Matar moscas', 'Usar un inclinómero', 
     'Te pica un mosquito','Clavar la sombrilla en la arena', 'Jugar con globos de agua', 'Hacer ejercicio en casa',
-    'Hacer buñuelos', 'Noche de karaoke', 'Mamma mia', 'Luca', 'Los minions', 'Saltar las olas']
+    'Comer churros', 'Cantar en el Karaoke', 'Mamma mia', 'Luca', 'Los minions', 'Saltar las olas', 'Isabel II', 'RPG', 'María B valorando la columna en el examen',
+    'Cristina llorando mientras come macarrones', 'Mirian roneando', 'Rubén en la cita del coche', 'Irene corriendo de Bimba', 'Hacer un thrust', 'La de farma con el gato',
+    'Emilio de cirugía viendo las exposiciones', 'Nosotros corriendo 2h en la playa', 'Prueba de fuerza de Rosetti', 'María B e Irene en el gimnasio', 'Cristina tocando el Saxofón',
+    'Bailar sevillanas', 'Beber vino', 'Ir a tomar algo al Provenzal', 'Cervezada', 'Seminario en la piscina', 'Notar las fascias', 'Nosotros antes de entrar al examen de respi', 
+    'Jugar al tenis', 'Comer caracoles', 'Hacer una ruta de senderismo', 'Hacer una prueba de esfuerzo', 'Mirian y Gonzalo discutiendo en el grupo', 'Hacer zumba', 'Hacer dominadas',
+    'Ir al CBC', 'Mirian llorando con sus bebés', 'María B paseando a Randi', 'Musaka arañando a María L', 'Drenar cara y cuello', 'Ale Galán en clase', 'Vendaje de muñón', 
+    'Cristina yendo al mercadona con el carrito', 'Montarse en el canguro', 'Tocar el pito de carnaval', 'Comprar en Shein', 'Poner un kinesio']
 
 var telepatias = ['Marca de ropa', 'Comida', 'Bebida', 'Bebida alcohólica', 'Marca de zapatos', 'Marca deportiva', 'Marca de comida', 'Sabor de helado', 
     'Sabor de té', 'Bebida sin azúcar', 'Deporte', 'Deporte acuático', 'Deporte con pelota', 'Juego de mesa', 'Videojuego', 'Asignatura del cole', 'Marca de tecnología', 
@@ -16,34 +22,43 @@ var telepatias = ['Marca de ropa', 'Comida', 'Bebida', 'Bebida alcohólica', 'Ma
     'Actor extranjero', 'Actriz extranjera', 'Director de cine', 'Marca de coche', 'Marca de moto', 'Cantante', 'Canción', 'País europeo', 'País asiático', 
      'País americano', 'País sudamericano','Continente', 'Grupo de cantantes', 'Dúo de cantantes', 'Cómico', 'Juguete', 'Canción de los 2000', 'Película', 'Serie', 
      'Aplicación de chat', 'Aplicación del móvil', 'Red social', 'Plato típico andaluz', 'Color', 'Provincia de España', 'Ciudad de España',
-    'Provincia de Andalucía', 'Plataforma streaming', 'Instrumento musical', 'Parte del cuerpo', 'Hueso', 'Músculo', 'Manera de morir', 'Dibujitos', 'Cómic',
+    'Provincia de Andalucía', 'Plataforma streaming', 'Instrumento musical', 'Parte del cuerpo', 'Hueso', 'Músculo', 'Tendón', 'Ligamento',
+    'Articulación', 'Plano en el espacio', 'Eje del cuerpo', 'Manera de morir', 'Dibujitos', 'Cómic',
     'Una palabra que empiece por vocal', 'Festival de música', 'Río', 'Mar', 'Océano', 'Un artículo de papelería', 'Un utensilio de maquillaje', 
-     'Un utensilio de cocina', 
+     'Un utensilio de cocina', 'Test de osteopatía', 'Técnica de respi', 'Hospital', 'Profesor', 'Un dedo de la mano', 'Un hueso del carpo', 'Un bar de Cádiz', 
     'Electrodoméstico', 'Árbol', 'Insecto', 'Mamífero', 'Ave', 'Reptil', 'Anfibio', 'Plato italiano', 'Plato chino', 'Plato francés', 'Un contenedor',
-    'Piedra, papel, tijera', 'Un juego de cartas', 'Un palo de la baraja',
-    'Una videoconsola', 'Un sabor de aceitunas', 'Un partido político', 'Un político', 'Un embutido', 
-    'Un parque de atracciones']
+    'Piedra, papel, tijera', 'Un juego de cartas', 'Un palo de la baraja', 'Una nota musical', 'Un integrante de la Familia Real Española',
+    'Una videoconsola', 'Un sabor de aceitunas', 'Un partido político', 'Un político', 'Un embutido', 'Un integrante de la Familia Real Británica', 
+    'Un parque de atracciones', 'Asignatura de la carrera', 'Una marca de cerveza', 'Un jugador del Cádiz CF', 'Un compañero de clase', 'Un hermanx de María B', 
+    'Una mascota de los aquí presente', 'Un plato andaluz', 'Una chirigota', 'Una comparsa', 'Una agrupación de carnaval', 'Un autor de carnaval', 'Una técnica de masoterapia']
 
 var dibujos = ['Vaca', 'Caballo', 'Delfín', 'Voldemort', 'Teclado', 'Ratón', 'Pulpo', 'Oveja', 'Mapa', 'Regadera', 'Brújula', 'Mariposa', 'Caramelo', 'Monopatín', 
-    'Patín eléctrico', 'Bicicleta', 'Pollo asao', 'Kayak', 'Paddle Surf', 'Mariquita', 'Matamoscas', 'Lavavajillas', 'Lavadora', 'Secadora', 'Sartén', 'La Plaza España', 'La Giralda', 
+    'Patín eléctrico', 'Bicicleta', 'Pollo asao', 'Kayak', 'Paddle Surf', 'Mariquita', 'Matamoscas', 'Lavavajillas', 'Lavadora', 'Secadora', 'Sartén', 'Plaza España de Sevilla', 'La Giralda', 
     'Las Setas', 'Test COVID', 'Mascarilla', 'Erizo', 'Cebra', 'Bicicleta', 'Huevo frito', 'La Giralda','Coches locos', 'Toro mecánico', 
     'Paso de semana santa', 'Feria de Sevilla', 'Queso', 'Jamón', 'Guitarra',
     'Chicharrón', 'Chicharrones', 'Crucigrama', 'Pasapalabra', 'Snorkel', 'Juego Virus', 'Conejo', 'Cabra', 'Toro', 'Gato', 'Perro', 
-     'Gazpacho', 'Couscous', 'Mejillones rellenos', 'Gallina',
-     'Váter', 'Ducha', 'Lavabo', 'Coronavirus', 'Nevera', 'Sofá', 'Silla de escritorio', 'Flexo']
+     'Gazpacho', 'Couscous', 'Gallina', 'Theraband', 'Mancuerna', 'Jaula de Rocher', 'Camilla', 'Inclinómetro', 'Goniómetro', 
+     'Váter', 'Ducha', 'Lavabo', 'Coronavirus', 'Nevera', 'Sofá', 'Silla de escritorio', 'Flexo', 'Irene', 'Cristina', 'María B', 'Mirian', 'María L', 'Laura', 'Rubén',
+    'Adrián', 'Musaka (gato María L)', 'Randi', 'Tortugas de María B', 'Gonzalo profesor de física', 'Clases online', 'Fémur', 'Tórax', 'Vértebra', 'Estadio Nuevo Mirandilla', 
+    'Escudo del Cádiz CF', 'Escudo del Sevilla FC', 'Escudo del Real Madrid', 'La Caleta', 'Gran Teatro Falla', 'Símbolo de la UCA', 'Fisioterapia', 
+    'Electrocardiograma', 'RPG', 'Café con hormigas de la UCA', 'Bimba (perra de Rubén)', 'Laura en rehabilitación', 'Teclado de PC', 'Volante del coche', 
+    'Pirulí de Cádiz', 'Catedral de Cádiz', 'Pito de carnaval', 'Tren', 'Plaza España de Cádiz', 'Puente de la Pepa', 'Traje de flamenca', 'Saxofón', 'Pentagrama', 'Cubo de cervezas', 
+    'Edward Cullen', 'Lady Di'
+ ]
 
 var imitar = ['Acento: argentino', 'Imitación: minion', 'Acento: cubano', 'Imitación: animal crossing', 'Acento: vasco', 'Acento: andaluz', 'Acento: mexicano', 
     'Acento: gallego', 'Acento: portugués', 'Acento: catalán', 'Acento: un reggetonero, mi amol', 
     'Imitación: Sebastián Yatra', 'Acento: un chino hablando español', 'Acento: un inglés hablando español', 'Acento: un francés hablando español', 
-    'Imitación: Gloria Serra', 'Imitación: Rajoy', 'Imitación: Juan Carlos I ', 'Acento: venezolano', 'Acento: cordobés', 'Acento: madrileño', 
+    'Imitación: Gloria Serra', 'Imitación: Rajoy', 'Imitación: Juan Carlos I ', 'Acento: cordobés', 'Acento: madrileño', 
      'Acento: un ruso hablando español', 'Imitación: Shakira', 'Imitación: Amaia Montero',
     'Imitación: Dani Martín', 'Imitación: Voldemort','Imitación: Pikachu', 'Acento: italiano', 'Imitación: Mickey Mouse', 'Imitación: Shin Chan', 
      'Imitación: Miguel Bosé', 'Imitación: Homer', 'Imitación: Matías Pratts',
     'Imitación: Belén Esteban', 'Imitación: Raphael', 'Imitación: Yoda', 'Acento: un turco hablando español', 'Imitación: Michael Jackson', 
     'Imitación: Camilo', 'Imitación: Duquesa de Alba', 'Imitación: Mario Vaquerizo', 
     'Imitación: Boris Izaguirre', 'Imitación: Jack Sparrow', 'Imitación: Rafa Nadal', 'Imitación: Ed Sheeran', 'Imitación: Pedro Sánchez', 'Imitación: Pablo López'
-    ,'Imitación: Sweet California', 'Imitación: la Rosalía', 'Imitación: Sergio Dalma' , 'Imitación: David Bisbal', 'Imitación: David Bustamante', 
-     'Imitación: Fernando Simón', 'Imitación: Dark Vather', 'Acento: gitano']
+    ,'Imitación: la Rosalía', 'Imitación: Sergio Dalma' , 'Imitación: David Bisbal', 
+     'Imitación: Fernando Simón', 'Imitación: Dark Vather', 'Imitación: Gonzalo de física', 'Imitación: Ale Galán', 'Imitar: Inés miofascial', 'Imitación: Emilio cirugía','Imitación: Mirian',
+    'Imitación: Rubén']
 
 var canciones = ['Zapatillas, El canto del loco', 'Nada que perder, Pignoise', 'Cuando zarpa el amor, Camela', 'Como Camarón, Estopa', 'Por la raja de tu falda, Estopa', 
     'Caminando por la vida, Melendi', 'Tacones Rojos, Sebastián Yatra',  'Perfect, Ed Sheeran', 'Shape of you, Ed Sheeran', 'Física o química, Despistaos', 
@@ -53,10 +68,12 @@ var canciones = ['Zapatillas, El canto del loco', 'Nada que perder, Pignoise', '
     'Ram pam pam, Natti Natasha feat. Becky G', 'Alejandro, Lady Gaga', 'Tusa, Karol G feat. Nicki Minaj', 'bad guy, Billie Ellish', 'Toxic, Britney Spears', 'La casa por el tejado, Fito y Fitipaldis',
     'Mala mujer, C. Tangana', 'Aserejé, Las Ketchup', 'Antes muerta que sencilla, María Isabel', 'Veneno pa tu piel, La Veneno', 'Sarandonga, Lolita Flores', 'Sin pijama, Natti Nattasha feat. Becky G', 'A quién le importa, Alaska', 'Wannabe, Spice Girls', 'Under pressure, Queen',
     'Búscate un hombre que te quiera, El Arrebato', 'Pasado Pisado, Comando Tiburón', 'Gasolina, Daddy Yankee', 'Bailar Pegados, Sergio Dalma', 'Galilea, Sergio Dalma', 'Thriller, Michael Jackson', 'Smooth Criminal, Michael Jackson', 
-    'Charycruuuz (Daddy Cool, Boney M.)', 'Mi gran noche, Raphael', 'Escándalo, Raphael', 'Marinero de Luces, Isabel Pantoja', 'Se me enamora el alma, Isabel Pantoja', 'Como una ola, Rocío Jurado', 'Ave María, David Bisbal', 'Si tú la quieres, David Bisbal y Aitana', 'Bulería, David Bisbal',
-    'Bella Ciao', 'Youngblood, 5SOS', 'Qué bonito es querer, Manuel Carrasco', 'Mujer bruja, Lola Índigo', 'Noches de Bohemia, Navajita Plateá', 'El anillo, JLO', 'Volare, Gipsy Kings', 'Djobi, Djoba, Gipsy Kings', 'Bad romance, Lady Gaga', 'Mi persona Favorita, Alejandro Sanz y Camila Caballo',
-    'El del medio de los chichos, Estopa', 'Mamma mia', 'Gimme! Gimme! Gimme!, Mamma mia', 'Ven conmigo Pepe, Christina Aguilera', 'Bad Habits, Ed Sheeran', 'City of Stars, La La Land', 'Horóscopo, David Rees', 'Mon amour, Aitana y Zoilo', 'Inventas, Vanesa Martín', 'Solamente tú, Pablo Alborán', 
-    'El patio, Pablo López', 'Toda, Malú']
+    'Mi gran noche, Raphael', 'Escándalo, Raphael', 'Marinero de Luces, Isabel Pantoja', 'Se me enamora el alma, Isabel Pantoja', 'Como una ola, Rocío Jurado', 'Ave María, David Bisbal', 'Si tú la quieres, David Bisbal y Aitana', 'Bulería, David Bisbal',
+    'Bella Ciao', 'Qué bonito es querer, Manuel Carrasco', 'Mujer bruja, Lola Índigo', 'Noches de Bohemia, Navajita Plateá', 'El anillo, JLO', 'Volare, Gipsy Kings', 'Djobi, Djoba, Gipsy Kings', 'Bad romance, Lady Gaga', 'Mi persona Favorita, Alejandro Sanz y Camila Cabello',
+    'El del medio de los chichos, Estopa', 'Mamma mia', 'Gimme! Gimme! Gimme!, Mamma mia', 'Bad Habits, Ed Sheeran', 'City of Stars, La La Land', 'Mon amour, Aitana y Zoilo', 'Solamente tú, Pablo Alborán', 
+    'El patio, Pablo López', 'Toda, Malú', 'Me han dicho que el amarillo, La Familia Pepperoni', 'Adrenalina, Wisin feat. JLO', 'Bzrp Music Sessions, Vol. 52, Bizarrap feat. Quevedo', 
+    'DESPECHÁ, Rosalía', 'Tití me preguntó, Bad Bunny', 'Ay Mamá, Rigoberta Bandini', 'SloMo, Chanel', 'MAMIII, Becky G feat. Karol G', 'Pegao, Camilo', 
+    'Colorín Colorado, Justin Quiles', 'AZUQUITA', 'Búscate otro, JC La Nevula',]
 
 var spoty = ['"https://open.spotify.com/embed/track/42VgiRyg0YjtRVLiPFNxPJ?utm_source=generator"', /*Zapatillas*/
     '"https://open.spotify.com/embed/track/0YSaKC66FGCWLxM9SoQA1f?utm_source=generator"', /*Nada q */
@@ -111,7 +128,6 @@ var spoty = ['"https://open.spotify.com/embed/track/42VgiRyg0YjtRVLiPFNxPJ?utm_s
     '"https://open.spotify.com/embed/track/1V7FkKnkA3Gq1fkGayioSI?utm_source=generator"', //galilea
     '"https://open.spotify.com/embed/track/3S2R0EVwBSAVMd5UMgKTL0?utm_source=generator"', //thriller
     '"https://open.spotify.com/embed/track/2bCQHF9gdG5BNDVuEIEnNk?utm_source=generator"', //smooth
-    '"https://open.spotify.com/embed/track/3WMbD1OyfKuwWDWMNbPQ4g?utm_source=generator"', //daddy cool
     '"https://open.spotify.com/embed/track/6Tnnk7MAnZiDx67DJN2hnx?utm_source=generator"', //mi gran noche
     '"https://open.spotify.com/embed/track/3xbymP6jIcdN0O2PB420bz?utm_source=generator"', //escándalo
     '"https://open.spotify.com/embed/track/24UBqV1xJwNUns7nJVIbDu?utm_source=generator"', //marinero de luse
@@ -121,7 +137,6 @@ var spoty = ['"https://open.spotify.com/embed/track/42VgiRyg0YjtRVLiPFNxPJ?utm_s
     '"https://open.spotify.com/embed/track/5agt9CgF8dTRXgNtn1zflm?utm_source=generator"', //si tú la quieres
     '"https://open.spotify.com/embed/track/2s7WJ9IRON5zalNbfFY1xa?utm_source=generator"', //bulería
     '"https://open.spotify.com/embed/track/5XYPTwya4YqPystALy9cLJ?utm_source=generator"', //bella ciao
-    '"https://open.spotify.com/embed/track/2iUXsYOEPhVqEBwsqP70rE?utm_source=generator"', //5sos,
     '"https://open.spotify.com/embed/track/6uzGmmQ4CuG9HvZktEy0LF?utm_source=generator"', //Q bontio
     '"https://open.spotify.com/embed/track/4R8TsvDoKSSDVERlaphNBA?utm_source=generator"', //mujer bruja
     '"https://open.spotify.com/embed/track/1JpZMDDAkfhnrO6nXIQZ2g?utm_source=generator"', //noches bohenmia
@@ -133,20 +148,32 @@ var spoty = ['"https://open.spotify.com/embed/track/42VgiRyg0YjtRVLiPFNxPJ?utm_s
     '"https://open.spotify.com/embed/track/4UMCpYrmgZv9CsyLvrws4F?utm_source=generator"', //chichos
     '"https://open.spotify.com/embed/track/717z018DWodjJnW6DE7t4z?utm_source=generator"', //mamma mia
     '"https://open.spotify.com/embed/track/3vkQ5DAB1qQMYO4Mr9zJN6?utm_source=generator"', //gimme
-    '"https://open.spotify.com/embed/artist/1l7ZsJRRS8wlW3WfJfPfNS?utm_source=generator"', //conmigo pepe
     '"https://open.spotify.com/embed/track/6PQ88X9TkUIAUIZJHW2upE?utm_source=generator"', //bad habits
-    '"https://open.spotify.com/embed/track/6XQHlsNu6so4PdglFkJQRJ?utm_source=generator"', //city stars
-    '"https://open.spotify.com/embed/track/51L4d8YoozF4dmqxmAQtVN?utm_source=generator"', //horoscoppo    
+    '"https://open.spotify.com/embed/track/6XQHlsNu6so4PdglFkJQRJ?utm_source=generator"', //city stars   
     '"https://open.spotify.com/embed/track/5TMLavqGRKNxgzMBrVpC9R?utm_source=generator"', //mon amour
-    '"https://open.spotify.com/embed/track/48eeeHvDzNvtJiQh5XDs2N?utm_source=generator"', //inventas
     '"https://open.spotify.com/embed/track/7sRXhReWmJF5pqyg3uUTES?utm_source=generator"', //solamente tú
     '"https://open.spotify.com/embed/track/5Z2OHghVzPn8qyCyIbDy4m?utm_source=generator"', //patio
     '"https://open.spotify.com/embed/track/7fJzhcQYEa1NlmQiUcEDkd?utm_source=generator"', //toda
+    '"https://open.spotify.com/embed/track/1jOCWILyuPY1Ca03pYK2hn?utm_source=generator"', //himno cadiz
+    '"https://open.spotify.com/embed/track/2eqDUxbd0JPEhNrJdPlHLs?utm_source=generator"', //Adrenalina
+    '"https://open.spotify.com/embed/track/2tTmW7RDtMQtBk7m2rYeSw?utm_source=generator"', //bzrp
+    '"https://open.spotify.com/embed/track/5ildQOEKmJuWGl2vRkFdYc?utm_source=generator"', //despecha
+    '"https://open.spotify.com/embed/track/1IHWl5LamUGEuP4ozKQSXZ?utm_source=generator"', //titi
+    '"https://open.spotify.com/embed/track/0khVEzctbwmqLvOpg1ecbg?utm_source=generator"', //mamá
+    '"https://open.spotify.com/embed/track/3XREkzDHsWdBL5tybyCDBH?utm_source=generator"', //slomo
+    '"https://open.spotify.com/embed/track/1ri9ZUkBJVFUdgwzCnfcYs?utm_source=generator"', //mamii
+    '"https://open.spotify.com/embed/track/7Dk8r4VR5NoveUvTiCKEXC?utm_source=generator"', //pegao
+    '"https://open.spotify.com/embed/track/2YZDh5CecWx0qlFiTvqVQ9?utm_source=generator"', //Colorin
+    '"https://open.spotify.com/embed/track/5e45GhSF18JYoLpaq2F48h?utm_source=generator"', //azuca
+    '"https://open.spotify.com/embed/track/5nZ7DPFgkSueMjpaVZf3wz?utm_source=generator"', //busctaotro
+
+
 ]  
 
-var frases = ['Sujétame la fanta', 'Oleee, eso está chupao', 'Enga, enga', 'Amonoh', '¿Solo eso? Va', 'Te vas a cagá', 
-    'Ponme algo más difíci, mi arma', 'Hubiera preferido caerme por Despeñaperros', 'Con los ojos serraos, chavá', 'Y haciendo el pino si quieres', 'Tas colao',
-    'Hasta luego, Mari Carmen', 'Okey makey', 'Chao pescao', 'Easy peasy', 'Dale gaxi', '¡Me encanta!']
+var frases = ['Sujétame el cubata', 'Oleee, eso está chupao', 'Enga, enga', 'Amono', '¿Solo eso? Va', 'Te vas a cagá', 
+    'Ponme algo más difíci, mi arma', 'Hubiera preferido un examen de física', 'Con los ojos cerraos, chavá', 'Y haciendo el pino si quieres', 'Tas colao',
+    'Hasta luego, Mari Carmen', 'Okey makey', 'Chao pescao', 'Easy peasy', 'Dale, gaxí', '¡Me encanta!', 'Pisha, tas pasao', 'Esto lo estudié en sexto de primaria', 
+    'Estoy to emboliká', 'Te bajas un punto', '¿Qué hago? ¿Me mato?' ]
 
 var tarareoHecho = []; 
 var mimicaHecha = []; 
