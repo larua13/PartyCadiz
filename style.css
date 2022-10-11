@@ -8,7 +8,9 @@
     }
 
 html, body{
-    margin: 0; 
+    width: 100%;
+    height: 100%;
+    margin: 0 auto; 
     overflow: hidden;
     font-family: 'Algerian';
 }
@@ -16,30 +18,56 @@ html, body{
 .supercontainer{
     width: 100%;
     height: 100vh;
-    display: grid;
-    grid-template-rows: 12% 1fr;
-    grid-template-areas: 
-    "header"
-    "container";
-}
-
-.final{
-    grid-area: header; 
+    max-height: 100vh;
 }
 
 .container{
+    max-height: 100vh;
+    height: 100%;
     display: grid;
-    grid-template-areas: 
-    "mimica telepatia"
-    "dibuja imita";
-
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "mimica  telepatia"
+                         "dibujar tararear";
+   
     box-shadow: 3px 2px 2px  #000000;
     background-color: black;
     border: 2px solid black;
     gap:3px;
 }
 
+
+.container .mimica {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.container .telepatia {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+
+.container .dibujar {
+grid-column-start: 1;
+grid-column-end: 2;
+grid-row-start: 2;
+grid-row-end: 3;
+}
+
+.container .tararear {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
 .container > div {
+    width: 100%;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -68,8 +96,6 @@ html, body{
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 98%;
-    padding: 3%; 
-    grid-area: mimica; 
 }
 
 #telepatia{
@@ -77,8 +103,6 @@ html, body{
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 98%;
-    padding: 3%;
-    grid-area: telepatia; 
 
 }
 
@@ -86,9 +110,7 @@ html, body{
     background: url(files/fondoDibuja.jpg);
     background-repeat: repeat;
     background-size: 95%;
-    padding: 3%; 
     opacity: 98%;
-    grid-area: dibuja; 
 }
 
 #imita{
@@ -96,8 +118,6 @@ html, body{
     background-repeat: repeat;
     background-size: 95%;
     opacity: 98%;
-    padding: 3%; 
-    grid-area: imita; 
 }
 
 .mimica{
@@ -138,20 +158,82 @@ html, body{
     background-color: #000000;
 }
 
-@media screen and (max-width: 768px) {
-    .supercontainer {
-      grid-template-rows: 1% 1fr;
-  
-    }
+.final img{
+    width: 20%;
+    max-width: 20%;
 }
 
+@media (min-width: 1281px) {
+  
+    .final img{
+        width: 20%;
+        max-width: 7%;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    .final img{
+        width: 20%;
+        max-width: 9%;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    .final img{
+        width: 20%;
+        max-width: 8%;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    .final img{
+        width: 20%;
+        max-width: 4%;
+    }
 
+    .white > h1{
+        font-size: 20px;
+    }
+    
+  }
 
-
-
-
-
-
-
-
-
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    .final img{
+        width: 20%;
+        max-width: 15%;
+    }
+    
+  }
+  
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    .final img{
+        width: 20%;
+        max-width: 15%;
+    }
+    
+  }
