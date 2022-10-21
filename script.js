@@ -16,7 +16,8 @@ var mimicas = ['Spiderman', 'Piratas del Caribe', 'Harry Potter', 'La casa de Pa
     'Hacer dominadas', 'Adrián grabando el video de osteopatía mareado', 'Manolo haciéndole el bombeo de psoas a María B', 'Hacer una espirometría', 
     'Ir al CBC', 'Mirian llorando con sus bebés', 'María B paseando a Randi', 'Musaka arañando a María L', 'Drenar cara y cuello', 'Ale Galán en clase', 'Vendaje de muñón', 
     'Cristina yendo al mercadona con el carrito', 'Montarse en el canguro', 'Tocar el pito de carnaval', 'Comprar en Shein', 'Poner un kinesio', 'Rubén en las prácticas con Carlos procedimientos II',
-     'Mirian leyendo Elísabet Benavent', 'Hacer un match en Tinder', 'Pisar una caca', 'Rubén descubriendo el significado de VERS', 'Primera práctica de neuro', 'Calentamiento de geriatría', 'Clase de spinning', 'Isabel II', 'Pintar el cuerpo en cardio', 'Abrir un vino', 'Atasco camino a Chiclana', 'La isla de las tentaciones', 'Hacer pilates', 'Cristina matando un saltamontes', 'Hacer peso muerto', 'Tiktok despechá', 'Escuchas viscerales', 'Contraer el suelo pélvico', 'Parir']
+     'Mirian leyendo Elísabet Benavent', 'Hacer un match en Tinder', 'Pisar una caca', 'Rubén descubriendo el significado de VERS', 'Primera práctica de neuro', 'Calentamiento de geriatría', 'Clase de spinning', 'Isabel II', 'Pintar el cuerpo en cardio', 'Abrir un vino', 'Atasco camino a Chiclana', 'La isla de las tentaciones', 'Hacer pilates', 'Cristina matando un saltamontes', 'Hacer peso muerto', 'Tiktok despechá', 'Escuchas viscerales', 'Contraer el suelo pélvico', 'Parir',
+     'Rubén haciendo el paso de Rauw Alejandro', 'Rubén haciendo el paso de Anitta', 'Gatear']
 
 var telepatias = ['Marca de ropa', 'Comida', 'Bebida', 'Bebida alcohólica', 'Marca de zapatos', 'Marca deportiva', 'Marca de comida', 'Sabor de helado', 
     'Sabor de té', 'Bebida sin azúcar', 'Deporte', 'Deporte acuático', 'Deporte con pelota', 'Juego de mesa', 'Videojuego', 'Asignatura del cole', 'Marca de tecnología', 
@@ -46,7 +47,8 @@ var dibujos = ['Vaca', 'Caballo', 'Delfín', 'Voldemort', 'Teclado', 'Ratón', '
     'Escudo del Cádiz CF', 'Escudo del Sevilla FC', 'Escudo del Real Madrid', 'La Caleta', 'Gran Teatro Falla', 'Símbolo de la UCA', 'Fisioterapia', 
     'Electrocardiograma', 'RPG', 'Café con hormigas de la UCA', 'Bimba (perra de Rubén)', 'Laura en rehabilitación', 'Teclado de PC', 'Volante del coche', 
     'Pirulí de Cádiz', 'Catedral de Cádiz', 'Pito de carnaval', 'Tren', 'Plaza España de Cádiz', 'Puente de la Pepa', 'Traje de flamenca', 'Saxofón', 'Pentagrama', 'Cubo de cervezas', 
-    'Edward Cullen', 'Lady Di', 'Reyes', 'Un reflejo', 'Un músculo del aparato genitourinario', 'Una canción de Rosalía', 'Una canción de Tiktok', 'Un hueso del cráneo', 'Un músculo del cuello', 'Un músculo del miembro inferior', 'Un músculo del miembro superior', 'Un músculo de la cara']
+    'Edward Cullen', 'Lady Di', 'Reyes', 'Un reflejo', 'Un músculo del aparato genitourinario', 'Una canción de Rosalía', 'Una canción de Tiktok', 'Un hueso del cráneo', 'Un músculo del cuello', 'Un músculo del miembro inferior', 'Un músculo del miembro superior', 'Un músculo de la cara',
+     'Luciano']
 
 var imitar = ['Acento: argentino', 'Imitación: minion', 'Acento: cubano', 'Imitación: animal crossing', 'Acento: vasco', 'Acento: andaluz', 'Acento: mexicano', 
     'Acento: gallego', 'Acento: portugués', 'Acento: catalán', 'Acento: un reggetonero, mi amol', 
@@ -60,7 +62,7 @@ var imitar = ['Acento: argentino', 'Imitación: minion', 'Acento: cubano', 'Imit
     'Imitación: Boris Izaguirre', 'Imitación: Jack Sparrow', 'Imitación: Rafa Nadal', 'Imitación: Ed Sheeran', 'Imitación: Pedro Sánchez', 'Imitación: Pablo López'
     ,'Imitación: la Rosalía', 'Imitación: Sergio Dalma' , 'Imitación: David Bisbal', 
      'Imitación: Fernando Simón', 'Imitación: Dark Vather', 'Imitación: Gonzalo de física', 'Imitación: Ale Galán', 'Imitar: Inés miofascial', 'Imitación: Emilio cirugía','Imitación: Mirian',
-    'Imitación: Rubén', 'Imitación: Carla peleando con Gonzalo', 'Imitación: Eleonora', 'Imitación: Petronila', 'Imitación: Eminem (Mónica fisiología)', 'Imitación: Rosalía']
+    'Imitación: Rubén', 'Imitación: Carla peleando con Gonzalo', 'Imitación: Eleonora', 'Imitación: Petronila', 'Imitación: Eminem (Mónica fisiología)', 'Imitación: Rosalía',  'Imitación: Petronila']
 
 var canciones = ['Zapatillas, El canto del loco', 'Nada que perder, Pignoise', 'Cuando zarpa el amor, Camela', 'Como Camarón, Estopa', 'Por la raja de tu falda, Estopa', 
     'Caminando por la vida, Melendi', 'Tacones Rojos, Sebastián Yatra',  'Perfect, Ed Sheeran', 'Shape of you, Ed Sheeran', 'Física o química, Despistaos', 
